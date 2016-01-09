@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {116065091,159887854,0,tonumber(our_id)},--Sudo users
+    sudo_users = {157002520,171481453,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -229,12 +229,12 @@ function create_config( )
 EN
 Manager Your Groups
 Admin Of Bot
-@SH_R2721 [ Developer& manager]
+@alireza_PT [ Developer& manager]
 
 FA
 مدیر گروه های شما
 ادمین 
-@SH_R2721 [سازنده ومدیر]
+@alireza_PT [ سازنده]
 ]],
     help_text = [[
 Commands list :
