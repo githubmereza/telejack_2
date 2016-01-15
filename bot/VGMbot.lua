@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {157002520,171481453,0,tonumber(our_id)},--Sudo users
+    sudo_users = {151624528,171481453,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -237,100 +237,137 @@ FA
 @alireza_PT [ سازنده]
 ]],
     help_text = [[
-Commands list :
+Unlimited bots Help for mods : 😈
+Plugins : 🔻
 
-!kick [username|id]
-You can also do it by reply
+1. banhammer ⭕️
+Help For Banhammer👇
+دستورات حذف و کنترل گروه
 
-!ban [ username|id]
-You can also do it by reply
+!Kick @UserName 😜
+And You Can do It by Replay 🙈
+برای حذف کسی به کار میره همچنین با ریپلی هم میشه 
 
-!unban [id]
-You can also do it by reply
 
-!who
-Members list
+!Ban @UserName 〽️
+You Can Do It By Replay👌
+برای بن کردن شخصی استفاده میشه با ریپلی هم میشه 
 
-!modlist
-Moderators list
 
-!promote [username]
-Promote someone
+!Unban @UserName
+You Can Do it By Replay😱
+کسیرو آنبن میکنید و با ریپلی هم میشه
 
-!demote [username]
-Demote someone
+For Admins : 👇
 
-!kickme
-Will kick user
+!banall @UserName or (user_id)😺
+you Can do it By Replay 👤
+برای بن از تمامی گروه ها استفاده میشه
 
-!about
-Group description
+!unbanall 🆔User_Id🆔
+برای انبن کردن شخص از همه ی گروه ها 
 
-!setphoto
-Set and locks group photo
+〰〰〰〰〰〰〰〰〰〰
+2. GroupManager :🔹
 
-!setname [name]
-Set group name
+!Creategp "GroupName" 🙈
+You Can CreateGroup With this command😱
+با این دستور گروه میسازند که مخصوص ادمین ها و سازنده هست
 
-!rules
-Group rules
+!lock member 😋
+You Can lock Your Group Members 🔻
+با این دستور اجازه ورود به گروه رو تعیین میکنید
 
-!id
-return group id or user id
+!lock bots 🔹
+No bots can come in Your gp 🕶
+از آمدن ربات به گروه جلوگیری میکنید
 
-!help
+!lock name ❤️
+no one can change your gpname💍
+اسم گروه را قفل میکنید
 
-!lock [member|name|bots]
-Locks [member|name|bots]
+!setflood😃
+Set the group flood control🈹
+میزان اسپم را در گروه تعیین میکنید
 
-!unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+!settings ❌
+Watch group settings
+تنظیمات فعلی گروه را میبینید
 
-!set rules <text>
-Set <text> as rules
+!owner🚫
+watch group owner
+آیدی سازنده گروه رو میبینید
 
-!set about <text>
-Set <text> as about
+!setowner user_id❗️
+You can set someone to the group owner‼️
+برای گروه سازنده تعیین میکنید 
 
-!settings
-Returns group settings
+!modlist💯
+watch Group mods🔆
+لیست مدیران گروه رو میبینید
 
-!newlink
-create/revoke your group link
 
-!link
-returns group link
+!unlock (bots-member-flood-photo-name-Arabic)✅
+Unlock Something🚼
+همه ی موارد بالا را با این دستور آزاد میسازید
 
-!owner
-returns group owner id
+!rules 🆙 or !set rules🆗
+watch group rules or set
+برای دیدن قوانین گروه و یا انتخاب قوانین 
 
-!setowner [id]
-Will set id as owner
+!about or !set about 🔴
+watch about group or set about
+در مورد توضیحات گروه میدهد و یا توضیحات گروه رو تعیین کنید 
 
-!setflood [value]
-Set [value] as flood sensitivity
+!res @username🔘
+See UserInfo©
+در مورد اسم و ای دی شخص بهتون میده 
 
-!stats
-Simple message statistics
+!who♦️
+Get Ids Chat🔺
+تمامی ای دی های موجود در چت رو بهتون میده
 
-!save [value] <text>
-Save <text> as [value]
+!log 🎴
+get members id ♠️
+تمامی فعالیت های انجام یافته توسط شما و یا مدیران رو نشون میده
 
-!get [value]
-Returns text of [value]
+!all🔴
+this is like stats in a file🔸
+همه ی اطلاعات گروه رو میده
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+!newlink : 🔓
+Revokes the Invite link of Group. �
+لینک گروه رو عوض میکنه 
 
-!res [username]
-returns user id
-"!res @username"
+!getlink : 💡
+Get the Group link in Group .
+لینک گروه را در گروه نمایش میده
 
-!log
-will return group logs
+!linkpv : 🔐
+To give the invitation Link of group in Bots PV.
+برای دریافت لینک در پیوی استفاده میشه 
+〰〰〰〰〰〰〰〰
+Admins :®
+!addgp 😎
+You Can add the group to moderation.json😱
+برای آشنا کردن گروه به ربات توسط مدیران  اصلی ربات
 
-!banlist
-will return group ban list
+!remgp 😏
+You Can Remove the group from mod.json⭕️
+برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
+
+!setgpowner (Gpid) user_id ⚫️
+from realm®®
+برای تعیین سازنده ای برای گروه 
+
+!addadmin 🔶
+set some one to global admin🔸
+برای اضافه کردن ادمین اصلی به ربات 
+
+!removeadmin🔘
+remove somone from global admin🔹
+برای حذف کردن ادمین اصلی از ربات 
+
 
 **U can use both "/" and "!"
 
