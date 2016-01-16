@@ -218,7 +218,13 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "all"
+    "all",
+    "Welcome",
+    "LinkPv",
+    "calc",
+    "tagall",
+    "qr",
+    "plugins"
     },
     sudo_users = {151624528,171481453,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
